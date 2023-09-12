@@ -3,14 +3,14 @@
 int main (){
 
 	int i;
-	do{
+	while ((1<1)|(i>3)){
 		printf ("\n\nEscolha a fruta pelo numero:\n\n");
 		printf ("\t(1)...Mamao\n");
 		printf ("\t(2)...Abacaxi\n");
 		printf ("\t(3)...Laranja\n\n");
 		scanf("%d", &i);
 	}
-	while ((i<1)||(i>3));
+	
 	switch (i){
 		case 1:
 		printf ("\t\tVoce escolheu Mamao.\n");

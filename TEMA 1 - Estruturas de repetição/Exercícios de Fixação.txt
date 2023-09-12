@@ -1,0 +1,43 @@
+Exercícios de Fixação
+TEMA 1 : PROGRAMAÇÃO ESTRUTURADA
+PROFESSOR : ROGÉRIO MALHEIROS DOS SANTOS
+GABARITO ESTARÁ DISPONÍVEL QUINTA-FEIRA
+1 ) As estruturas de repetição while e do … while possuem alguma diferença entre elas ? Qual
+seria? Qual a consequência desta diferença entre elas ?
+
+    R: Sim, enquanto na while o teste é feito no início e bloco while pode nem ser executado, em do while o teste é feito no final da estrutura o bloco é executado pelo menos uma vez.
+
+2) Qual das estruturas de repetição possui maior complexidade ? Por que?
+
+    R: A estrutura FOR é a mais complexa das três, pois se divide em quatro partes: Inicialização da Variável Contadora, Teste de Repetição, Incremento e finalmente, o Bloco FOR.
+
+3) Na Parte 3 de Incremento da Estrutura FOR só se pode aumentar o valor da variável contadora ?
+Por que?
+
+    R: Não. Pode aumentar ou diminuir.
+
+4) Altere o Programa FOR presente no AVA e apenas alterando as partes 1 ,2 e 3 do FOR sem alterar
+a parte 4 faça o programa mostrar todos os múltiplos de 4 , a partir do número 4 ,até aparecer um
+múltiplo de 10
+
+    R: ex004.c
+
+5) Altere o programa WHILE presente no AVA e utilizando a mesma idéia do programa original
+para o cálculo do FATORIAL de N, faça o programa calcular , dado N a soma 1 + 2 + 3 + ...+N,
+alterando o mínimo necessário o programa original, trocando a variável fat por soma e efetuando
+outras pequenas alterações.
+
+    R: ex005.c
+
+6) Altere o programa DO...WHILE presente no AVA apenas colocando no formato de WHILE ,
+colocando a mesma condição do programa original e escrevendo antes do WHILE a linha i=1;. O
+que acontece e porque não funcionou da mesma maneira que o programa original?
+
+    R: ex006.c
+
+7) Altere o Programa Do While e faça um menu de 5 opções de 1 a 5 com a opção de Escolher uma
+nome pelo número sendo cada uma o nome de uma pessoa a sua escolha e só saia do menu se for
+colocado um valor válido de 1 a 5. E na parte do switch deve ser escrito “O nome da pessoa que
+você escolheu é NOME_DA_PESSOA”
+
+    

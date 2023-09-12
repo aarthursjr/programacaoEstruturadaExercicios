@@ -2,16 +2,16 @@
 
 int main(){
 
-	int fat,i,n;
+	int soma,i,n;
 	
 	printf("Forneça um número inteiro não negativo\n");
 	scanf("%d",&n);
 	i=n;
-	fat=1;
-	while (i>1){
-		fat*=i;
+	soma=0;
+	while (i>0){
+		soma+=i;
 		i-=1;
 	}
-	printf ("O fatorial de %d é %d",n,fat);
+	printf ("A soma de 1 até %d é %d",n,soma);
 
 }
