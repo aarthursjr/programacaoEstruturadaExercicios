@@ -1,0 +1,26 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 5 professor : ROGÉRIO MALHEIROS DOS SANTOS 
+
+1 ) Existe o tipo string no C? Se não como podemos representar uma string?Dê um exemplo de declaração de variável string no C que tenha 7 letras.(Ver slide 32)
+
+R: Não existe o tipo string no C. Para se criar uma string utiliza-se um vetor de caracteres.
+Ex: “char nome[7];”
+
+2)	Rode o programa Programa de operações com variáveis string presente no AVA e o programa ao pedir a leitura da string escreva roberto santos  e veja o resultado. Depois troque a linha  scanf("%s", x); por  scanf("%[^\n]", x);  e veja o resultado.Houve alguma diferença de um resultado para o outro?Justifique a sua resposta (Ver slide 33)
+
+R:
+Ao ler com scanf(“%s”,x): O programa diz que as strings são iguais;
+Ao ler com scanf(“%[^\n]”, x): O programa diz que são strings diferentes, isso acontece pois ao utilizar o comando, o programa passar a ler o que está após o espaço em branco também.
+
+3)	Rode o programa Programa de operações com variáveis string presente no AVA e o programa ao pedir a leitura da string escreva roberio  e veja o resultado. Depois troque a linha z=strcmp(x,y); por z=strncmp(x,y,5);  e veja o resultado.Houve alguma diferença de um resultado para o outro?Justifique a sua resposta (Ver slide 35)
+
+R:
+A linha z= strcmp(x,y) -> O programa diz que são diferentes, pois ele compara as duas strings completas.
+A linha z= strncmp(x,y,5) -> O programa diz que são iguais, pois ele compara apenas os 5 primeiras caracteres da string apenas.
+
+4)	Sejam as funções as variáveis string x=”Paz” e y=”Amor” e z (sem valor inicial)
+a)	Qual o resultado da função strcmp(x,y)?
+R: Diferente de zero.	
+b)	Qual o valor que a variável z irá assumir pela função strcpy(z,y)?
+R: Amor
+c)	Qual o resultado da função strcat(y,x)?
+R: AmorPaz
