@@ -1,0 +1,31 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 2
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+A partir dos slides de 13 a 16 responda as seguintes perguntas de 1 a 2:
+1 ) Toda a função deve possuir quantas partes obrigatoriamente segundo o slide 13?Explique cada
+uma
+
+    R:  3 partes. Entrada (Variáveis de entrada, parâmetros), processamento (programa com comandos) e saída(valor de retorno).
+
+2) Dê um exemplo de uma função e suas partes análogo ao exemplo do slide 13 (não pode ser
+igual)
+
+    R:  002.c
+
+3) Faça pequenas modificações no Programa da função fatorial fat que está no AVA e mude o
+nome da função para soma_de_1a_N. Esta nova função deve calcular a soma de 1 até N sendo N o
+parâmetro de entrada
+
+    R: 003.c
+
+4) Faça pequenas modificações no Programa da função potência pot que está no AVA e mude o
+nome para somanum_mvezes.Ele deve fazer soma de um número N, M vezes.N e M são os
+parâmetros de entrada (números inteiros)
+
+    R: 004.c
+
+5) Modifique o Programa com fatorial e potência que está no AVA, colocando além das funções
+já existentes neste programa, as funções soma_de_1aN e somanum_mvezes.O programa
+principal deve ler três números inteiros A,B e C e calcular
+soma_de_1aN(A)-pot(B,C)+somanum_mvezes(A,B) + fat(C) e mostrar na tela o resultado
+
+    R: 005.c
