@@ -1,0 +1,42 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 4
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+
+1 ) O que é um vetor em C segundo o slide 29?Segundo esta definição o vetor é uma estrutura
+homogênea(tem dados do mesmo tipo) ou heterogênea (dados de tipo diferentes?)
+
+    R: Um Vetor é uma Estrutura em que uma variável armazena um número predeterminado de valores de mesmo tipo.
+
+2) Rode o programa Programa Vetor em C presente no AVA no compilador C on line e
+responda os itens abaixo
+
+a) Os valores x[1] e x[4] se referem ao primeiro e quarto valor do vetor? Se não eles se
+referem a quais valores?
+
+    R: Não. x[1] é o segundo valor e o x[4] é o quinto valor. Isso se deve pois no C, o vetor começa a ser contado a partir do 0.
+
+b) O valor de x[5] é algum presente no vetor?Se não, qual foi o problema?
+
+    R:O valor de x[5] não está presente no vetor, por isso quando é pedido para imprimir, o programa usa um valor qualquer.
+
+c) Na declaração da variável vetor substitua int x[5]={4,7,9,11,12};
+por int x[6]={4,7,9,11,12};
+e rode de novo o programa. Qual foi o valor que apareceu para x[5] neste programa?Por
+que foi este valor?
+
+    R: 0. Porque não há valor guardado em x[5].
+
+d) Acrescente a seguinte linha no programa que você modificou na letra c)
+printf("O tamanho em memória ocupado pelo vetor x é de %ld bytes", sizeof(x));
+e rode o programa de novo e veja o tamanho em memória em bytes. Depois retire os valores 11 e
+12 na declaração do vetor. Rode o programa de novo e veja o tamanho do vetor na memória.Qual
+a sua conclusão sobre o tamanho do vetor em memória mesmo tirando valores do vetor?
+
+    R: O tamanho de um vetor em memória é fixo.
+
+3) Altere o programa Exemplo Vetor para conversão Inteiro Decimal para Binário para que
+leia um inteiro decimal (na base 10) e a base que o usuário quer converter . Esta base só pode
+ser 2, 4 ou 8 e o programa não continua enquanto o usuário do programa não digitar 2,4 ou 8
+como base. E depois o programa mostrará o número inteiro decimal (na base 10) convertido na
+base pedida.
+
+    R: 003.c

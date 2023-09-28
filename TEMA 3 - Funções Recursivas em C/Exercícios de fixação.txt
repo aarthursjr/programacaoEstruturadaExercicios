@@ -1,0 +1,36 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 3
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+A partir dos slides de 17 a 28 do arquivo Aulas do Prof Rogério Malheiros de Programação
+Estruturada presente no AVA responda as seguintes perguntas :
+
+1 ) Qual é o formato padrão de uma função recursiva e qual a sua característica principal? 
+Calcule F(5) tomando a função b) do slide 19 mostrando os cálculos de maneira semelhante ao feito no slide
+18
+
+    R: Uma função é dita recursiva quando dentro dela é feita uma ou mais chamadas a ela mesma.
+        F(N)= {1 Quando N=1
+        F(N-1) + N² Quando N>1}
+    F(1) = 1
+    F(2) = F(2-1) + 2² = F(1) + 4 = 1 + 4 = 5
+    F(3) = F(3-1) + 3² = F(2) + 9 = 5 + 9 = 14
+    F(4) = F(4-1) + 4² = F(3) + 16 = 14 + 16 = 30
+    F(5) = F(5-1) + 5² = F(4) + 25 = 30 + 25 = 55
+
+2) Faça pequenas modificações no Programa da função fat recorrente presente no AVA mude o
+nome da função para soma_de_1a_N. Esta nova função que também deve ser recorrente calcula a
+soma de 1 até N sendo N o parâmetro de entrada
+
+    R: ex002.c
+
+3) Faça pequenas modificações no Programa de potência pot recorrente que está no AVA e
+mude o nome para somanum_mvezes. Esta função que deve ser também recorrente deve fazer
+soma de um número N, M vezes.N e M são os parâmetros de entrada (números inteiros)
+
+    R: ex003.c
+
+4) Modifique o Programa com fatorial e potência recorrentes , que está no AVA, colocando
+além das funções já existentes neste programa, as funções soma_de_1aN e somanum_mvezes.O
+programa principal deve ler três números inteiros A,B e C e calcular
+soma_de_1aN(A)+pot(B,C)-somanum_mvezes(A,C) + fat(B) e mostrar na tela o resultado
+
+    R: ex004.c
