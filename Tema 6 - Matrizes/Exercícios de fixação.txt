@@ -1,0 +1,40 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 6 : PROGRAMAÇÃO ESTRUTURADA
+professor : ROGÉRIO MALHEIROS DOS 
+
+A partir dos slides de 38 a 40 do arquivo Aulas do Prof Rogério Malheiros de Programação
+Estruturada presente no AVA responda as seguintes perguntas de 1 e 4 e coloque os programas
+fonte e resultados das questões 2) e 3)
+
+1 ) A matriz pode guardar valores de diferentes tipos?A partir de sua resposta a matriz é uma
+estrutura homogênea ou heterogênea?
+
+    R: Não pode guardar valores de tipos diferentes, pois a matriz é uma estrutura homogênea.
+
+2) Rodar Programa Matrizes em C. Todos os números mostrados neste programa são de
+números pertencentes a Matriz? Qual linha e coluna da matriz está cada número?
+
+    R: M[1][1] é 12, M[0][2] é 9 e M[2][1] não apresenta nenhum valor, por isso ao ser impresso o programa mostra 0 ou um valor qualquer.
+
+3) Altere o Programa Matrizes em C e na declaração a matriz do programa deve ser
+
+    2    3
+M=  8    6
+    4    1
+
+E o programa deve imprimir o elemento da primeira linha e segunda coluna e o elemento da
+terceira linha e primeira coluna desta matriz
+
+    R: 003.c
+
+4 ) Alterar Programa Soma de Matrizes e fazer com que o programa Calcule, calcule ao invés
+de A + B, 5A+2B. Colocar o programa fonte e resultado e mostrar qual foi o menor valor desta
+matriz 5A + 2B
+
+    R: 004.c
+
+5) Utilizar o programa Exemplo matriz para leitura e escrita de medias de turmas(colunas) em
+unidades(linhas) para ler as médias 8 , 6 e 4 das turmas 0 1 e 2 da unidade 0 e ler as médias 7,
+5 e 5 das turmas 0, 1 e 2 da unidade 1. Mostre com isso o resultado do programa e através dele
+mostre qual é a unidade de melhor média.
+
+    R:  005.c
