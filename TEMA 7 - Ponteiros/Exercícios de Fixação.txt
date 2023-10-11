@@ -1,0 +1,28 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 7
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+
+A partir dos slides de 42 a 45 do arquivo Aulas do Prof Rogério Malheiros de Programação
+Estruturada presente no AVA responda as seguintes perguntas de 1 a 3e coloque os programas
+fonte e resultados da questão 4
+
+1 ) Quais são as componentes que possui uma variável qualquer?
+
+    R: Toda a Variável possui: Valor, Tipo, Endereço de Memória e Identificador.
+
+2) Quais é a diferença primordial entre uma variável estática e uma variável dinâmica?
+
+    R: Uma variável estática não pode ter o seu endereço de memória alterada pelo programador, já a variável dinâmica pode. 
+
+3) Se definir a variável int *p ela é estática ou dinâmica? Se colocar p=H0 H0 representa o endereço ou valor da variável p?
+
+    R: int *p é a declaração de uma variável dinâmica.
+        p=H0 representa o seu endereço.
+
+4) Altere o Programa Ponteiro em C para transformar x em variável dinâmica e p em variável
+estática.O endereço de x deve ser incializado por NULL e p deve ter valor incial p=2 e x deve
+receber o endereço da variável p e depois o valor de p deve receber 14 – valor de x e no final o
+programa deverá dar a seguinte mensagem :
+printf("o endereço que aponta para x é %p e p é %d",p,x);
+copie o novo código fonte e o resultado do programa
+
+    R: ex004.c
