@@ -1,0 +1,42 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 8 : PROGRAMAÇÃO ESTRUTURADA
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+A partir dos slides de 46 a 56 do arquivo Aulas do Prof Rogério Malheiros de Programação
+Estruturada presente no AVA responda as seguintes perguntas de 1 a 3e coloque os programas
+fonte e resultados da questão 4
+
+1 ) O tipo struct é uma estrutura de dados homogênea ou heterogênea? Por que?Dê um exemplo
+escrevendo em C o tipo struct CadastroCliente que guarda o primeiro nome , CPF e renda do
+Cliente de uma empresa e declarando a variável Cliente neste tipo struct que você criou
+
+    R:  Heterogênea. Porque pode guardar dados de diferentes tipos.
+        
+        struct cadastroCliente 
+        {
+            char primeiroNome[99];
+            char CPF[11];
+            float renda;
+        };
+
+2) Faça pequenas alterações no programa Exemplo Registro Aluno no AVA trocando o tipo
+struct existente para cadastroCliente e que guardará as variáveis primeironome,idade e renda.
+Troque as variáveis do programa para Cliente1,Cliente2 , sendo que para o Cliente1 deve ser
+atribuído primeironome igual a José ,idade igual a 35 e renda é igual a R$5445,35. E o Cliente2
+deve ter mensagens para quem rodar o programa forneça o primeironome, idade e renda que
+serão lidos pelo programa. E no final do programa ele deve imprimir na tela o Primeiro Nome,
+idade e renda do Cliente1 e Cliente2.
+
+    R:  ex002.c
+
+3) Modificar o Programa Vetor Registro C para que leia Primeiro Nome, Idade e Renda de 20
+clientes utilizando o tipo struct utilizado no exercício anterior , a variável vetor de struct Clientes
+e a estrutura for existente neste programa.Após a leitura ele deve mostrar o nome do quarto
+cliente, a idade do décimo cliente e a renda do décimo sexto cliente na tela.
+
+    R:  ex003.c
+
+4) O programa pedido na questão 3 utiliza duas estruturas , o vetor e o struct, também chamado
+de registro.Quais destas estruturas são homogêneas e quais são heterogêneas?Justifique sua
+resposta usando as definições de estrutura homogênea e heterogênea
+
+    R:  Vetor é homogênea, pois só guarda dados de um único tipo.
+        Struct é heterogênea, pois guarda dados de diferentes tipos.

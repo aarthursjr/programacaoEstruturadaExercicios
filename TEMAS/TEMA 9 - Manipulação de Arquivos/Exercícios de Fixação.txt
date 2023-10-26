@@ -1,0 +1,40 @@
+EXERCÍCIOS DE FIXAÇÃO – TEMA 9 : PROGRAMAÇÃO ESTRUTURADA
+professor : ROGÉRIO MALHEIROS DOS SANTOS
+A partir dos slides do arquivo Material Teórico de Manipulação de Arquivos em C presente no
+material didático do AVA responda as seguintes perguntas de 1 a 3e coloque os programas fonte e
+resultados da questão 4
+1 ) Qual são as vantagens principais de nos programas guardarmos os dados em arquivos?
+
+    R:  Armazenamento Permanente de dados, Grande quantidade de dados armazenadas, acesso concorrente(várias pessoas podem acessar o mesmo arquivo).
+
+2) Se rodar um programa que só lê os dados do teclado e rodar outro programa que lê os mesmos
+dados e grava num arquivo, qual dos programas é mais vantajoso ? Por que?
+
+    R: 
+
+3) Ao criar um arquivo pelo comando fopen, qual a diferenças dos tipos de arquivo criados
+usando as strings r, a e w?
+
+    R:
+    r (read) : Arquivo somente para leitura.
+    w (write) : Arquivo para gravação. Se já existir, o programa sobrecreve o arquivo com os novos dados.
+    a (append) : Arquivo para gravação. Se já exisitr, o programa mantém o arquivo existente e adiciona os novos dados gravados.
+
+4) Rode o programa “Programa que Abre,grava e fecha arquivo” presente no material didático
+do AVA três vezes com a primeira vez gravando a palavra “Centro”, na segunda vez
+”Universidade”, e na terceira vez ”Carioca” e sem sair do compilador rode o programa
+“Programa que lê arquivo” presente no material didático do AVA e coloque os fontes e o
+resultado. Depois apague o conteúdo do arquivo arquivo_palavra.txt gerado e altere o
+programa “Programa que Abre,grava e fecha arquivo” trocando na linha que tem o comando
+fopen , o segundo parâmetro deste comando de “w” para “a” , rode três vezes de novo gravando
+as três palavras já citadas e depois rode o programa “Programa que lê arquivo” e veja o
+resultado.Houve diferença nos resultados?Se sim , qual foi a diferença e porquê
+
+    R: Sim. O comando "w" substitui o antigo dado escrito pelo novo, já o comando "a" manteve os dados antigos, acrescentando os novos.
+
+5) Rode o programa “Programa que Abre,grava e fecha arquivo” presente no material didático
+do AVA uma vez para gravar a palavra “Universitário”. A palavra foi corretamente gravada?Se
+não cite qual foi o problema e altere o programa conforme explicação em
+http://linguagemc.com.br/localizacao-de-programas-com-locale-h/
+
+    R: Não, ele parou a leitura assim que identificou o caracterer acentuado. 
